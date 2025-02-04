@@ -1,0 +1,33 @@
+Question1-What is the use of float property? Which property is the better alternative to it?
+
+Answer1-The float property in CSS was traditionally used to wrap text around images or create 
+multi-column layouts. However, it has several limitations and can be tricky to work with:
+
+Issues with float:
+Complex clearing problems: It often requires hacks like "clearfix" to prevent layout issues.
+Difficult to maintain: Layouts using float can be hard to control and inconsistent.
+Unexpected behavior: Elements might not behave as expected, particularly with heights and parent-child relationships.
+Better modern alternatives:
+
+1.Flexbox
+Ideal for one-dimensional layouts (either rows or columns).
+Simplifies vertical centering and space distribution.
+Provides better control over element ordering.
+
+Ex:
+.container {
+  display: flex;
+  justify-content: center;
+  align-itmes:center;
+}
+
+2.CSS Grid
+
+Perfect for two-dimensional layouts (both rows and columns together).
+Designed specifically for page layouts.
+Offers intuitive alignment controls and is better suited for responsive design.
+Ex:
+
+.container{
+    display:grid;
+}

@@ -1,0 +1,59 @@
+Question3-What are the different types of CSS Selectors?
+
+Answer3-The different types of CSS selectors are as follows:
+
+1. Element Selectors:
+   - Selects elements based on their tag name.
+   - Example:
+     p {
+         color: red;    /* Selects all <p> elements */
+     }
+
+2. Class Selectors:
+   - Selects elements that have a specific class.
+   - Example:
+     .nav {
+         display: flex; /* Selects all elements with class="nav" */
+     }
+
+3. Id Selectors:
+   - Selects a specific element with a unique id.
+   - Example:
+     #inp {
+         display: inline-block;  /* Selects an element with id="inp" */
+     }
+
+4. Pseudo-Classes:
+   - Selects elements based on their state or interaction (e.g., hover).
+   - Example:
+     a:hover {
+         text-decoration: underline; /* Selects <a> tag in its hover state */
+     }
+
+5. Pseudo-Elements:
+   - Selects and applies styles to specific parts of an element, such as the first letter or line.
+   - Example:
+     p::first-line {
+         font-variant: small-caps;  /* Applies text style to the first line of <p> */
+     }
+
+6. Descendant Selectors:
+   - Selects elements that are nested inside a specific parent element.
+   - Example:
+     div p {
+         margin: 10px;  /* Selects all <p> elements inside <div> */
+     }
+
+7. Attribute Selectors:
+   - Selects elements based on a specific attribute and its value.
+   - Example:
+     input[type="text"] {
+         border: 1px solid gray; /* Selects all <input> elements with type="text" */
+     }
+
+8. Universal Selectors:
+   - Selects all elements in the document.
+   - Example:
+     * {
+         margin: 0;  /* Selects all elements and removes their margin */
+     }

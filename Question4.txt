@@ -1,0 +1,17 @@
+Question4-How are inline and block elements different from each other?
+
+Answer4-
+Block Elements:
+
+    Start on a new line and take up full width.
+    Respect width and height properties.
+    Can contain both block and inline elements.
+    Examples: <div>, <p>, <h1>, <section>
+
+Inline Elements:
+
+    Flow within the text, no new line.
+    Take up only as much width as needed.
+    Height and width properties don’t apply.
+    Cannot contain block elements.
+    Examples: <span>, <a>, <strong>, <em>
